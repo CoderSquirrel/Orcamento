@@ -7,6 +7,6 @@ import java.sql.SQLException;
 public class ConnectionFactory {
 	public Connection getConnection() throws SQLException {
 		return DriverManager.getConnection(
-				"jdbc:postgresql://10.1.1.10:5432/SACVET_ESTOQUE", "postgres", "12345");
+				"jdbc:postgresql://10.1.1.10:5432/DB", "postgres", "12345");
 	}
 }
